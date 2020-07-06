@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <title>EJEMPLO CLASE 17</title>
+    <style>
+    .grid-container{
+        display: grid;
+        grid-template-columns: 400px 400px 400px ; 
+       /* grid-template-rows: 100px 100px 100px ; */
+        background-color: rgb(255, 255, 255);
+        grid-gap:30px; ;
+        padding: 10px;
+      }
+
+      .grid-container>div{
+          background-color: aliceblue;
+          text-align: center;
+          padding: 20px;
+          font-size: 30px;
+      }
+      .container{
+       display: grid; 
+       grid-template-columns: 400px 400px 400px ; 
+       grid-template-rows: 100px 100px 100px ;
+       grid-gap:20px; ;
+       grid-auto-rows: 100px;
+      }
+    .item1{
+          grid-column-start: 1;
+          grid-column-end: 4;
+      }
+
+      .item3{
+          grid-column-start: 2;
+          grid-column-end: 3;
+          grid-row-start: 2;
+          grid-row-end: 5;
+      } 
+      .item9{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 6;
+      }
+
+       /* .item9{
+          grid-column-start: 1;
+          grid-column-end: 4;
+      }  */
+
+    /* .item2{
+          grid-row-start: 2;
+          grid-row-end: 4;
+          grid-row-start: 2;
+          grid-row-end: 3;
+      }  */
+    </style>
+</head>
+<body>
+  <div class="social-box">
+    <img class="social" src="img/whatsap.png">
+  </div>
+    <div class="grid-container">
+        <div class="item1">
+          <div align="right">
+              <a href="correo.html">Gmail</a>
+              <a href="correo.html">Imagenes</a>
+              <button class="btgmail">Iniciar Sesión</button>
+          </div>
+        </div>
+        <div class="item2"></div>
+        <div class="item3">
+          <img src="img/GoogleSpot.jpg">
+          <input type="text">
+          <br>
+          <button class="bt1">Buscar con Google</button>
+          <button class="bt1">Me siento con suerte</button>
+          <br>
+          <a>Ofrecido por google en: Español(Lationamérica)</a>
+        </div>
+        <div class="item4"></div>
+        <div class="item5"></div>
+        <div class="item6"></div>
+        <div class="item7"></div>
+        <div class="item8"></div>
+        <div class="item9">
+          <div align="left">
+              <p>
+              <a>Colombia</a> 
+                <br>
+                <a href="correo.html">Publicidad</a>
+                <a href="correo.html">Negocio</a>
+                <a href="correo.html">Google</a>
+                <a href="correo.html">Como funciona Google</a>
+                <a href="correo.html">Privacidad</a>
+                <a href="correo.html">Condiciones</a>
+                <a href="correo.html">Preferencias</a>
+              </p>
+          </div>
+        </div>
+
+      </div>
+</body>
+</html>

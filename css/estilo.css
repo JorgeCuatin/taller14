@@ -1,0 +1,38 @@
+h3{
+    /* display:inline;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* font-size: 30px; */
+    /* color: rgb(8, 8, 8);
+
+    text-align: right; */
+    /* word-spacing: 10px; */ 
+}
+a{
+    /* background-color: black; */
+    /* text-decoration-color: black; */
+    color: black;
+    font-size: 13px;
+}
+.social{
+    height: 40px;
+    margin: 10px;
+}
+
+.social-box{
+    position: fixed;;
+    top: 480px;
+    right: 10px;
+}
+
+.btgmail{
+    background-color: rgb(41, 109, 236);
+    color: cornsilk;
+}
+
+p{
+    color: rgb(2, 1, 0);
+    /* word-spacing: 10px; */
+
+}
